@@ -21,7 +21,7 @@ https://github.com/wguii/country-guesser-backend.git
 
 Rode na sua IDE de preferência utilizando Maven.
 
-O serviço estará rodando em http://localhost:8000.
+O serviço estará rodando em http://localhost:8080.
 
 ## **Endpoints**
 
