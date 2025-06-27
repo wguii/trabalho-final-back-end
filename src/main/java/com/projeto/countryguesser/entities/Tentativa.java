@@ -1,5 +1,6 @@
 package com.projeto.countryguesser.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
@@ -16,6 +17,7 @@ public class Tentativa {
 
     @ManyToOne
     @JoinColumn(name = "usuario_id")
+    @JsonIgnore
     private Usuario usuario;
 
     public Long getId() { return id; }

@@ -37,7 +37,7 @@ public class PaisController {
     @GetMapping("/sobre")
     public Map<String, Object> dadosProjeto() {
         return Map.of(
-                "integrante", List.of("Guilherme Zapelini"),
+                "integrantes", List.of("Guilherme Zapelini, Alexandre Sartor"),
                 "nome_projeto", "Country Guesser"
         );
     }
