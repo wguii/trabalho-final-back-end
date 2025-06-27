@@ -22,7 +22,7 @@ public class PaisService {
 
     public PaisDTO gerarPaisAleatorio() {
         RestTemplate restTemplate = new RestTemplate();
-        String url = "https://restcountries.com/v3.1/all?fields=name,region,capital,languages,currencies,population";
+        String url = "https://restcountries.com/v3.1/all?fields=name,region,capital,languages,currencies";
         ResponseEntity<RestCountriesResponseDTO[]> response =
                 restTemplate.getForEntity(url, RestCountriesResponseDTO[].class);
 
